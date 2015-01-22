@@ -40,7 +40,7 @@
 
 (defn split-with-key 
 	[fpath k]
-	(let [ks (make-bit-seq k) 
+	(let [ks (eqv k 3) 
 		fs (make-bit-seq (lazy-open fpath))
 		[first-half second-half] (streams-by-key fs ks)
 		first-name (format "%s-part1" fpath)

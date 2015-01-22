@@ -1,6 +1,6 @@
 (defproject splitcrypt "0.1.0-SNAPSHOT"
 	:description "Split a file according to a key's equivalent"
-	:url "http://example.com/FIXME"
+	:url "https://github.com/adrianrosian/splitcrypt.git"
 	:license {:name "Eclipse Public License"
 	:url "http://www.eclipse.org/legal/epl-v10.html"}
 	:dependencies [
