@@ -2,7 +2,7 @@
 	[:require 
 		[clojure.java.io :as io]
 		[eqvkey.core :refer [eqv make-bit-seq]]]
-	(:gen-class))
+	(:gen-class :main true))
 
 (defn lazy-open [fpath]
   (defn helper [rdr]
